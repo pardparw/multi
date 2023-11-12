@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "password";
+$password = "ZX__as258963";
 $dbname = "mulit";
 
 // Create connection
