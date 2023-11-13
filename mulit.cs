@@ -48,7 +48,7 @@ public class mulit : MonoBehaviour
             form.AddField("ay", arrow_y);
             form.AddField("nums", std_num);
 
-            using (UnityWebRequest www = UnityWebRequest.Post("http://192.168.1.24/multi/user.php", form)) {
+            using (UnityWebRequest www = UnityWebRequest.Post("http://app.sa.ac.th/multi/user.php", form)) {
                 yield return www.SendWebRequest();
 
                 if(www.isNetworkError || www.isHttpError) {
